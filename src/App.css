@@ -1,0 +1,95 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+nav{
+  background-color: rgba(0, 0, 255, 0.575);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.container1{
+  background-color: rgba(0, 0, 255, 0.575);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 12px;
+}
+.container1 > a{
+  text-decoration: none;
+  margin: 12px;
+  transition: 5s;
+}
+.container1 > a:hover{
+  color: white;
+}
+.container{
+  background-color: rgb(197, 172, 72);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.container > form > input , textarea , button{
+  padding: 20px;
+  border:  1px solid black;
+  border-radius:  5px;
+  margin: 2px;
+}
+.container>h1{
+  text-align: center;
+  margin: 40px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+button:hover{
+  background-color: rgb(158, 90, 221);
+}
+.task{
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.856);
+  margin: 20px 2px;
+  border-radius:  5px;
+  font-size: 13px;
+  align-items: center;
+  padding: 20px;
+}
+.task >div{
+  width: 100%;
+  
+}
+.task > button{
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.task > button:hover{
+  background-color: yellowgreen;
+}
+.contact{
+  background-color: crimson;
+  width: 100%;
+ min-height:  100vh;
+}
+.footer{
+  background-color: rgb(49, 47, 44);
+  min-height: 222px;
+  width: auto;
+  text-align: center;
+}
